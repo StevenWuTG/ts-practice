@@ -1,13 +1,11 @@
-var steven 
-// : {
-//     name:string;
-//     age:number;
-// } 
-= {
+var steven = {
     name: 'steven',
     age: 29,
-    hobbies: ['cooking', 'gaming']
+    hobbies: ['cooking', 'gaming'],
+    role: [3, 'gamer']
 };
+steven.role.push('admin');
+steven.role[0] = 10;
 var favHobbies;
 favHobbies = ['gaming'];
 console.log(steven.name);
